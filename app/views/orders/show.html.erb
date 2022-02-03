@@ -18,7 +18,7 @@
       <tbody>
         <% @line_items.each do |line_item| %>
           <% @products.each do |product| %>
-            <% if product.id == line_item.product_id %>
+            <% if product.id == line_item.product_id %> 
             <tr>
               <td><%= image_tag product.image.tiny %></td>
               <td>
