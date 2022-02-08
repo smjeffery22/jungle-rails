@@ -1,6 +1,11 @@
 require 'rails_helper'
 
 RSpec.describe Product, type: :model do
+  before do
+    @category = Category.create(name: 'Apparel')
+    @product = Product.create(name: 'Hipster Hat', price: 34.49, quantity: 4)
+  end
+
   describe 'Validations' do
     before do
       @category = Category.new(name: 'Apparel')
