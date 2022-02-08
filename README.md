@@ -2,6 +2,16 @@
 
 A mini e-commerce application built with Rails 4.2 for purposes of teaching Rails by example.
 
+## App Demo
+
+### User Registration and Login
+![user_registration_demo](docs/register_demo.gif)
+![user_login_demo](docs/login_demo.gif)
+
+### Add-to-Cart and Checkout
+![add_to_cart_demo](docs/add_to_cart_demo.gif)
+![order_page_demo](docs/order_demo.png)
+
 ## Additional Steps for Apple M1 Machines
 
 1. Make sure that you are runnning Ruby 2.6.6 (`ruby -v`)
